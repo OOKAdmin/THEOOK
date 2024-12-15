@@ -3,6 +3,7 @@ from flask_cors import CORS
 import numpy as np
 import matplotlib.pyplot as plt
 from indeterminatebeam import Beam, Support, PointLoadV, TrapezoidalLoad
+import os
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
